@@ -1,0 +1,15 @@
+.Image {
+    transform: 3s;
+}
+
+.Image:hover {
+    transform: rotate(1080deg);
+    transition-duration: 6s;
+    animation: infinite;
+}
+
+.resizable {
+    resize: both;
+    overflow: hidden;
+    border: 1px solid black;
+}
